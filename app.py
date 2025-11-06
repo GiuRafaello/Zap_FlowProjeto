@@ -1,5 +1,5 @@
 import streamlit as st
-import contrato
+from contrato import Vendas
 from pydantic import ValidationError
 from datetime import datetime, time
 
