@@ -1,6 +1,5 @@
-streamlit
-pydantic
-psycopg2
+streamlit==1.37.1
+psycopg2-binary
 python-dotenv
+pydantic
 email-validator
-
