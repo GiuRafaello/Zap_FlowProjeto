@@ -28,7 +28,8 @@ class Vendas(BaseModel):
     @field_validator('data')
     def validar_intervalo_data(cls, v):
         inicio_intervalo = datetime(2025,1,31)
-        fim_intervalo = datetime(2025,12,31,59,59)
+        fim_intervalo = datetime(2025, 12, 31, 23, 59, 59)
+
 
         if not(inicio_intervalo <= v <= fim_intervalo):
             raise ValueError("A data da venda deve estar entre 01/01/2025 e 31/12/2025")
