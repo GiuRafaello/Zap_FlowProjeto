@@ -1,0 +1,4 @@
+# BEM - VINDOS
+
+::: contrato.Vendas
+
