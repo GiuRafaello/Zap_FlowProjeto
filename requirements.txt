@@ -2,3 +2,6 @@ streamlit
 pandas
 mkdocs-material
 mkdocstrings[python]
+pydantic==2.12.4
+
+
