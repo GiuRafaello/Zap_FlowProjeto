@@ -16,7 +16,7 @@ def main():
     hora = st.time_input("Hora da venda")
     valor = st.number_input("Valor da Venda")
     quantidade = st.number_input("Qtd Vendida")
-    produto = st.selectbox("Campo para escolher o produto.",["ZapFlow com Gemini","ZapFlow com ChatGpt", "ZapFlow com Llama3.0"])
+    produto = st.selectbox("Campo para escolher o produto.",["ZapFlow com Gemini","'ZapFlow com chatGPT", "ZapFlow com Llama3.0"])
 
     #Botão Salvar
     if st.button("Salvar"):
